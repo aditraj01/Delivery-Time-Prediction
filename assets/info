@@ -3,13 +3,20 @@ Predicting delivery time for the order
 Problem Statement
 
 Porter is India's Largest Marketplace for Intra-City Logistics. Leader in the country's $40 billion intra-city logistics market, Porter strives to improve the lives of 1,50,000+ driver-partners by providing them with consistent earning & independence. Currently, the company has serviced 5+ million customers
-
 Porter works with a wide range of restaurants for delivering their items directly to the people.
-
 Porter has a number of delivery partners available for delivering the food, from various restaurants and wants to get an estimated delivery time that it can provide the customers on the basis of what they are ordering, from where and also the delivery partners.
-
 This dataset has the required data to train a regression model that will do the delivery time estimation, based on all those features
 
 
 About the Coloumns:
 Order Protocol Must be from 1-6
+
+About the HTML pages:
+Donot change the form input names like feature1, feature2 etc.
+Home.html homepage or default page.
+About.html dashboard page or graphs page.
+Index.Html or main page is the prediction page.
+Prefer not to change the file names as routing is already done.
+Keep some dark theme.
+Keep a buttons to navigate from one page to all other pages like home to index and about, from about to home and index like this.
+Do not use JS or if used use it just for basic functionalities it should not create route conflict.  
