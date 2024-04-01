@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction</title>
+</head>
+<body>
+    <h1>Delivery Time Prediction</h1>
+    <form action="{{ url_for('index') }}" method="post">
+        <label for="feature1">Protocol</label><br>
+        <input type="number" id="feature1" name="feature1" placeholder="Enter the Details"><br><br>
+        <label for="feature2">Total Items</label><br>
+        <input type="number" id="feature2" name="feature2" placeholder="Enter the Details"><br><br>
+        <label for="feature3">Total Price</label><br>
+        <input type="number" id="feature3" name="feature3" placeholder="Enter the Details"><br><br>
+        <label for="feature4">Types of Items</label><br>
+        <input type="number" id="feature4" name="feature4" placeholder="Enter the Details"><br><br>
+        <label for="feature5">Total On-shift Partners</label><br>
+        <input type="number" id="feature5" name="feature5" placeholder="Enter the Details"><br><br>
+        <label for="feature6">Total Busy Partners</label><br>
+        <input type="number" id="feature6" name="feature6" placeholder="Enter the Details"><br><br>
+        <label for="feature7">Total Pending Orders</label><br>
+        <input type="number" id="feature7" name="feature7" placeholder="Enter the Details"><br><br>
+        <label for="feature8">Active Partners</label><br>
+        <input type="number" id="feature8" name="feature8" placeholder="Enter the Details"><br><br>
+
+        <button type="submit">Predict</button>
+    </form>
+    <h2>Prediction (In Minutes):</h2>
+    <p>{{ prediction  }} </p>
+</body>
+</html>
