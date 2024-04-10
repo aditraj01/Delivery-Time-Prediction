@@ -2,9 +2,40 @@
 <html>
 <head>
     <title>About Page</title>
+    <link rel="stylesheet" href="about.css">
 </head>
 <body>
-    <h1>About Us</h1>
-    <p>This is the about page.</p>
+    <div class="header">
+        <h1>About Us</h1>
+        <a href="{{ url_for('index') }}">Home</a>
+    </div>
+    <div class="container">
+        <h3>About Dataset</h3>
+        <p>
+        Predicting delivery time for the order
+        
+        Porter is India's Largest Marketplace for Intra-City Logistics. Leader in the country's $40 billion intra-city logistics market, Porter strives to improve the lives of 1,50,000+ driver-partners by providing them with consistent earning & independence. Currently, the company has serviced 5+ million customers
+        Porter works with a wide range of restaurants for delivering their items directly to the people.
+        Porter has a number of delivery partners available for delivering the food, from various restaurants and wants to get an estimated delivery time that it can provide the customers on the basis of what they are ordering, from where and also the delivery partners.
+        This dataset has the required data to train a regression model that will do the delivery time estimation, based on all those features
+        </p>
+        
+        <!-- <h3>About the Coloumns:</h3>
+        <p>
+        Order Protocol Must be from 1-6
+        </p> -->
+
+        <!-- <h3>About the HTML pages:</h3>
+        <p>
+        Do not change the form input names like feature1, feature2 etc.
+        Home.html homepage or default page.
+        About.html dashboard page or graphs page.
+        Index.Html or main page is the prediction page.
+        Prefer not to change the file names as routing is already done.
+        Keep some dark theme.
+        Keep a buttons to navigate from one page to all other pages like home to index and about, from about to home and index like this.
+        Do not use JS or if used use it just for basic functionalities it should not create route conflict.  
+        </p> -->
+       </div>
 </body>
 </html>

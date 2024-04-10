@@ -12,8 +12,38 @@ body {
 }
 
 /* Main heading styles */
-h1 {
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+a{
     text-align: center;
+    margin-right: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: 0px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active{
+    text-decoration: none;
+}
+
+h1 {
+    /* text-align: center; */
+    margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
